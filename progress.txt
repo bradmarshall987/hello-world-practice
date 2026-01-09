@@ -1,0 +1,31 @@
+## Codebase Patterns
+- This is a plain HTML/CSS/JS PWA with no build tools or type checkers
+- CSS uses flexbox for layout - add `flex-direction: column` when stacking elements vertically
+- Container centers content using `margin: auto` with flex layout
+- No package manager or dependencies - edit HTML/CSS/JS files directly
+
+---
+
+## 2026-01-08 - US-001
+Thread: https://ampcode.com/threads/T-019ba175-9288-74ea-9b83-54267518d207
+- Added header banner with text "Practice App – built with Amp + Ralph"
+- Banner styled with blue background (#4a90d9), white text, centered
+- Updated body layout to use flex-direction: column for proper stacking
+- Container updated to use flex: 1 to fill remaining space
+- Files changed: index.html, css/style.css
+- **Learnings for future iterations:**
+  - The `.fullscreen` class needs `flex-direction: column` for vertical stacking
+  - No build/typecheck commands - this is a simple static HTML project
+  - dev-browser skill not available, manual verification needed
+---
+
+## 2026-01-08 - US-002
+Thread: https://ampcode.com/threads/T-019ba177-209f-758e-9803-914d05bf5cb9
+- Added footer element with dynamic year display
+- Footer styled to match banner (same blue background, white text, centered)
+- JavaScript dynamically sets year using `new Date().getFullYear()`
+- Files changed: index.html, css/style.css, js/main.js
+- **Learnings for future iterations:**
+  - Footer styled consistently with banner using same colors (#4a90d9 bg, white text)
+  - Year element uses span with id="year" populated on window.onload
+---
