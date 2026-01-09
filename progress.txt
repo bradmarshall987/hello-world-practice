@@ -18,3 +18,14 @@ Thread: https://ampcode.com/threads/T-019ba175-9288-74ea-9b83-54267518d207
   - No build/typecheck commands - this is a simple static HTML project
   - dev-browser skill not available, manual verification needed
 ---
+
+## 2026-01-08 - US-002
+Thread: https://ampcode.com/threads/T-019ba177-209f-758e-9803-914d05bf5cb9
+- Added footer element with dynamic year display
+- Footer styled to match banner (same blue background, white text, centered)
+- JavaScript dynamically sets year using `new Date().getFullYear()`
+- Files changed: index.html, css/style.css, js/main.js
+- **Learnings for future iterations:**
+  - Footer styled consistently with banner using same colors (#4a90d9 bg, white text)
+  - Year element uses span with id="year" populated on window.onload
+---

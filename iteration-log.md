@@ -8,3 +8,13 @@
 - index.html
 - css/style.css
 ---
+
+## Iteration 2 - 2026-01-08 15:30:00
+**Story:** US-002 - Add dynamic year footer
+**Status:** ✅ Complete
+**Summary:** Added a footer at the bottom of the page displaying the current year dynamically via JavaScript. Footer styled to match the header banner.
+**Files Modified:**
+- index.html
+- css/style.css
+- js/main.js
+---
