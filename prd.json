@@ -1,0 +1,39 @@
+{
+  "project": "HelloWorldPractice",
+  "branchName": "ralph/banner-footer",
+  "description": "Banner and Footer UI Enhancement - Add a visible header banner and dynamic footer to the Hello World practice app",
+  "userStories": [
+    {
+      "id": "US-001",
+      "title": "Add header banner",
+      "description": "As a visitor, I want to see a banner at the top of the page so I know this is a practice app built with Amp + Ralph.",
+      "acceptanceCriteria": [
+        "Banner appears at the very top of the page (above existing content)",
+        "Banner text reads: \"Practice App – built with Amp + Ralph\"",
+        "Banner is visually distinct (e.g., background color, centered text)",
+        "Banner is responsive and readable on mobile",
+        "Typecheck passes",
+        "Verify in browser using dev-browser skill"
+      ],
+      "priority": 1,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-002",
+      "title": "Add dynamic year footer",
+      "description": "As a visitor, I want to see a footer at the bottom of the page showing the current year so I know the site is maintained.",
+      "acceptanceCriteria": [
+        "Footer appears at the bottom of the page",
+        "Footer displays the current year (e.g., \"© 2025\")",
+        "Year is generated dynamically via JavaScript (not hardcoded)",
+        "Footer is styled consistently with the page",
+        "Typecheck passes",
+        "Verify in browser using dev-browser skill"
+      ],
+      "priority": 2,
+      "passes": false,
+      "notes": ""
+    }
+  ]
+}
